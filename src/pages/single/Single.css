@@ -1,0 +1,70 @@
+.single{
+    display: flex;
+    width: 100%;
+}
+.single .singleContainer{
+    flex: 6;
+}
+.single_top{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.single_top .left{
+    flex: 1;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    position: relative;
+}
+.single_top .left .editButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 12px;
+    color: #7451f8;
+    background-color: #7551f818;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+}
+.single_top .left .item{
+    display: flex;
+    gap: 20px;
+}
+.single_top .left .item .itemImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.single_top .left .item .details .itemTitle{
+    margin-bottom: 10px;
+    color: #555;
+}
+.single_top .left .item .details .detailsItem{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.single_top .left .item .details .detailsItem .itemKey {
+    font-weight: bold;
+    color: gray;
+    margin-right: 5px;
+}
+.single_top .left .item .details .detailsItem .itemValue {
+    font-weight: 300px;
+}
+.single_top .right{
+    flex: 2;
+}
+.single_footer{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 10px 20px;
+}
+.single_footer .title{
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 20px;
+}
